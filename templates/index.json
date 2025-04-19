@@ -1,28 +1,338 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "645b7934-4495-4b6d-a11d-d7c6a2c1eb7c": {
+      "type": "slideshow",
       "blocks": {
-        "heading": {
+        "template--18138382172463__645b7934-4495-4b6d-a11d-d7c6a2c1eb7c-167753654293cba87e-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/image_1.jpg",
+            "heading": "L'Élégance Durable",
+            "heading_size": "h1",
+            "subheading": "Des Solutions Éco-responsables pour un Mode de Vie Raffiné",
+            "button_label": "Découvrir nos Collections",
+            "link": "shopify://collections",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 50,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18138382172463__645b7934-4495-4b6d-a11d-d7c6a2c1eb7c-167753654293cba87e-0"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "2d00615a-43e8-4776-8a20-8fbffb3a6465": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18138382172463__2d00615a-43e8-4776-8a20-8fbffb3a6465-16775368694b08f4ab-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
+            "heading": "<p>NOS ENGAGEMENTS</p>",
+            "heading_size": "h1"
           }
         },
-        "text": {
+        "template--18138382172463__2d00615a-43e8-4776-8a20-8fbffb3a6465-16775368694b08f4ab-1": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "<p>Soucieux de vous accompagner dans la découverte de produits écologiques et innovants, nous nous engageons à vous mettre à disposition les meilleurs produits durables pour vous permettre d'adopter un mode de vie plus respectueux de l'environnement.\"</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18138382172463__2d00615a-43e8-4776-8a20-8fbffb3a6465-16775368694b08f4ab-0",
+        "template--18138382172463__2d00615a-43e8-4776-8a20-8fbffb3a6465-16775368694b08f4ab-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "747e7951-268f-4bb5-8a2c-f63554e7706b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18138382172463__747e7951-268f-4bb5-8a2c-f63554e7706b-167753696130153a96-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "NOTRE MISSION",
+            "heading_size": "h1"
+          }
+        },
+        "template--18138382172463__747e7951-268f-4bb5-8a2c-f63554e7706b-167753696130153a96-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"Proposer des produits écologiques et durables appropriés à vos besoins pour un mode de vie plus responsable.</p><p>Nous vous proposons une collection de produits innovants et éco-responsables variées et de qualités.</p><p>Vous êtes passionnés de développement durable, vous rencontré plusieurs challenges lors de votre transition écologique.</p><p>Il vous faut certainement du matériel écologique de qualité professionnel pour être armés lorsque vous faite vos choix durables.\"</p>",
             "text_style": "body"
           }
         },
-        "button": {
+        "button_GjMMKJ": {
+          "type": "button",
+          "settings": {
+            "button_label": "NOS PRODUITS",
+            "button_link": "shopify://collections/all"
+          }
+        }
+      },
+      "block_order": [
+        "template--18138382172463__747e7951-268f-4bb5-8a2c-f63554e7706b-167753696130153a96-0",
+        "template--18138382172463__747e7951-268f-4bb5-8a2c-f63554e7706b-167753696130153a96-1",
+        "button_GjMMKJ"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/image_2.jpg",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "79db01f6-44c7-4dbe-a3f2-1eaf81c8e304": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18138382172463__79db01f6-44c7-4dbe-a3f2-1eaf81c8e304-167753696130153a96-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "NOTRE SÉLECTION COUPS DE COEUR",
+            "heading_size": "h1"
+          }
+        },
+        "template--18138382172463__79db01f6-44c7-4dbe-a3f2-1eaf81c8e304-167753696130153a96-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"Découvrez nos produits écologiques soigneusement sélectionnés pour vous.</p><p><em>Sacs réutilisables élégants, ustensiles en bambou, produits d'entretien naturels</em>... trouvez ce qu'il vous faut dans notre collection.\"</p>",
+            "text_style": "body"
+          }
+        },
+        "template--18138382172463__79db01f6-44c7-4dbe-a3f2-1eaf81c8e304-167753696130153a96-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "DÉCOUVRIR NOS PRODUITS",
+            "button_link": "shopify://collections/all"
+          }
+        }
+      },
+      "block_order": [
+        "template--18138382172463__79db01f6-44c7-4dbe-a3f2-1eaf81c8e304-167753696130153a96-0",
+        "template--18138382172463__79db01f6-44c7-4dbe-a3f2-1eaf81c8e304-167753696130153a96-1",
+        "template--18138382172463__79db01f6-44c7-4dbe-a3f2-1eaf81c8e304-167753696130153a96-2"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/image_4.jpg",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 72
+      }
+    },
+    "78ff61be-648e-4293-8c14-e53044f65c6a": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--18138382172463__78ff61be-648e-4293-8c14-e53044f65c6a-16775372544e344b79-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Cb.png",
+            "title": "PAIEMENT 100% SÉCURISÉ",
+            "text": "<p>Parce que nous prenons la sécurité de nos clients très au sérieux, toutes nos transactions sont 100% sécurisées selon les normes Françaises.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--18138382172463__78ff61be-648e-4293-8c14-e53044f65c6a-16775372544e344b79-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Camion.png",
+            "title": "LIVRAISON SUIVIE BOUT EN BOUT",
+            "text": "<p>Sûr et rapide, votre commande est suivie et transportée par les services postaux Français.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--18138382172463__78ff61be-648e-4293-8c14-e53044f65c6a-16775372544e344b79-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Colis.png",
+            "title": "100% SATISFAIT OU REMBOURSÉ",
+            "text": "<p>Si pour une quelconque raison vous n’êtes pas satisfait de votre commande, nous vous remboursons dans un délai de 30 jours.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1cea981d-868b-411d-adf4-8f08060a63cb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Assistante.png",
+            "title": "SUPPORT FRANÇAIS 7/7J",
+            "text": "<p>Besoin d’aide ? Nous restons joignables 7 jours sur 7 et vous répondons sous 24h.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18138382172463__78ff61be-648e-4293-8c14-e53044f65c6a-16775372544e344b79-0",
+        "template--18138382172463__78ff61be-648e-4293-8c14-e53044f65c6a-16775372544e344b79-1",
+        "template--18138382172463__78ff61be-648e-4293-8c14-e53044f65c6a-16775372544e344b79-2",
+        "1cea981d-868b-411d-adf4-8f08060a63cb"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "accent-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "4e7355ed-4393-4642-99b4-62b91716a2e4": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--18138382172463__4e7355ed-4393-4642-99b4-62b91716a2e4-167753793155e3980f-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Nos engagements",
+            "icon": "check_mark",
+            "row_content": "<p>Nous sommes avant tout des passionnés des <strong>PRODUITS ECOLOGIQUES ET NATURELS.<br/></strong></p><p>Nous mettons tout en œuvre pour vous faire découvrir et rendre accessible de nouveaux produits qui <strong>répondrons aux besoins des PRODUITS ECOLOGIQUES ET NATURELS.</strong></p><p><strong>Nous nous engageons à vous proposer les meilleurs produits du marché. </strong></p><p>Notre équipe suit un <strong>protocole de sélection et de contrôle qualité rigoureux selon 7 critères</strong> afin de proposer uniquement les meilleurs <strong>PRODUITS ECOLOGIQUES ET NATURELS.</strong></p>",
+            "page": ""
+          }
+        },
+        "template--18138382172463__4e7355ed-4393-4642-99b4-62b91716a2e4-167753793155e3980f-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quelle est la Garantie ?",
+            "icon": "check_mark",
+            "row_content": "<p>Tous nos produits sont garantis <strong>100% satisfait ou remboursé pendant 30 jours.</strong></p>",
+            "page": ""
+          }
+        },
+        "template--18138382172463__4e7355ed-4393-4642-99b4-62b91716a2e4-167753793155e3980f-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Comment suivre ma commande ?",
+            "icon": "check_mark",
+            "row_content": "<p><strong>Votre commande est expédiée en 24H/48H</strong> via les services postaux Français et constamment suivie par notre équipe.</p><p><a href=\"/pages/suivre-ma-commande\" title=\"Suivre ma Commande\"><strong>Vous pouvez suivre votre commande en cliquant ICI.</strong></a></p>",
+            "page": ""
+          }
+        },
+        "template--18138382172463__4e7355ed-4393-4642-99b4-62b91716a2e4-167753793155e3980f-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Pourquoi Acheter chez nous ?",
+            "icon": "check_mark",
+            "row_content": "<p>Nous proposons des nouveautés, des innovations uniques ainsi que des <strong>offres spéciales pour nos précieux clients.</strong></p><p><strong>Service Client professionnel en Français disponible 7 jours sur 7 </strong>pour vous apporter un soutien tout le long de votre achat.</p><p>Des<strong> milliers de clients satisfaits partout en France.</strong></p><p>Une Garantie Exceptionnelle : <strong>Garantie 100% Satisfait ou Remboursé.</strong></p><p>Plus de <strong>80% de nos clients</strong> reviennent pour racheter des <strong>PRODUITS ECOLOGIQUES ET NATUREL</strong> chez nous !</p>",
+            "page": ""
+          }
+        },
+        "8b122c77-b4e0-46b6-bbb5-27966551f147": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Le Paiement est-il sécurisé ?",
+            "icon": "check_mark",
+            "row_content": "<p>Nous utilisons un système de cryptage au certificat SSL pour <strong>sécuriser à 100% les paiements selon les normes Françaises.</strong></p>",
+            "page": ""
+          }
+        },
+        "86235a0c-1d52-4434-9485-8966841a060f": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Comment nous Contacter ?",
+            "icon": "check_mark",
+            "row_content": "<p>Notre service client français <strong>vous répond sous 24h et cela 7 jours 7.</strong></p><p><a href=\"/pages/contact\" title=\"Nous Contacter\"><strong>Il vous suffit de cliquer ici pour nous contacter.</strong></a></p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18138382172463__4e7355ed-4393-4642-99b4-62b91716a2e4-167753793155e3980f-0",
+        "template--18138382172463__4e7355ed-4393-4642-99b4-62b91716a2e4-167753793155e3980f-1",
+        "template--18138382172463__4e7355ed-4393-4642-99b4-62b91716a2e4-167753793155e3980f-2",
+        "template--18138382172463__4e7355ed-4393-4642-99b4-62b91716a2e4-167753793155e3980f-3",
+        "8b122c77-b4e0-46b6-bbb5-27966551f147",
+        "86235a0c-1d52-4434-9485-8966841a060f"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "QUESTIONS FRÉQUENTES",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "row",
+        "color_scheme": "background-2",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16f6de02-b97a-4d0a-a4df-4091868d58cb": {
+      "type": "image-banner",
+      "blocks": {
+        "template--18138382172463__16f6de02-b97a-4d0a-a4df-4091868d58cb-1677538313f3c2cfa2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "\"Sophie Martin\"",
+            "heading_size": "h1"
+          }
+        },
+        "template--18138382172463__16f6de02-b97a-4d0a-a4df-4091868d58cb-1677538313f3c2cfa2-1": {
+          "type": "text",
+          "settings": {
+            "text": "'Les produits écologiques sont exactement ce que je cherchais. La qualité est exceptionnelle et le service client est remarquable!'",
+            "text_style": "body"
+          }
+        },
+        "template--18138382172463__16f6de02-b97a-4d0a-a4df-4091868d58cb-1677538313f3c2cfa2-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "VOIR LE PRODUIT",
             "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
+            "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -30,181 +340,59 @@
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
+        "template--18138382172463__16f6de02-b97a-4d0a-a4df-4091868d58cb-1677538313f3c2cfa2-0",
+        "template--18138382172463__16f6de02-b97a-4d0a-a4df-4091868d58cb-1677538313f3c2cfa2-1",
+        "template--18138382172463__16f6de02-b97a-4d0a-a4df-4091868d58cb-1677538313f3c2cfa2-2"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
+        "image": "shopify://shop_images/Trust.jpg",
+        "image_overlay_opacity": 50,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
+        "color_scheme": "background-1",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
-    "featured_collection": {
+    "featured_collection_yUzJf9": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "color_scheme": "scheme-1",
-        "show_view_all": false,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "2",
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "title": "Collection",
         "heading_size": "h1",
         "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "collection",
+        "products_to_show": 25,
+        "columns_desktop": 4,
         "full_width": false,
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false,
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "accent-1",
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
-    "image_banner",
-    "rich_text",
-    "featured_collection",
-    "collage",
-    "video",
-    "multicolumn"
+    "645b7934-4495-4b6d-a11d-d7c6a2c1eb7c",
+    "2d00615a-43e8-4776-8a20-8fbffb3a6465",
+    "747e7951-268f-4bb5-8a2c-f63554e7706b",
+    "79db01f6-44c7-4dbe-a3f2-1eaf81c8e304",
+    "78ff61be-648e-4293-8c14-e53044f65c6a",
+    "4e7355ed-4393-4642-99b4-62b91716a2e4",
+    "16f6de02-b97a-4d0a-a4df-4091868d58cb",
+    "featured_collection_yUzJf9"
   ]
 }

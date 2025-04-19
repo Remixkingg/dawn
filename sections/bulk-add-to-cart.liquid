@@ -1,0 +1,84 @@
+{% comment %}
+  sections/bulk-add-to-cart.liquid
+  Bulk Add To Cart section
+{% endcomment %}
+
+<div class="bulk-add-wrapper">
+  <form id="BulkAddForm">
+    {% assign collection_obj = collections[section.settings.source_collection] %}
+    {% if collection_obj and collection_obj.products_count > 0 %}
+      {% for product in collection_obj.products %}
+        {% assign variant = product.selected_or_first_available_variant %}
+        <div class="bulk-item">
+          <label>
+            <input
+              type="number"
+              name="qty_{{ variant.id }}"
+              min="0"
+              value="0"
+              class="bulk-quantity-input"
+            />
+            {{ product.title }}
+          </label>
+        </div>
+      {% endfor %}
+      <button type="submit">Add selected to cart</button>
+    {% else %}
+      <p>Please choose a collection with products in the section settings.</p>
+    {% endif %}
+  </form>
+</div>
+
+<script>
+// Bulk Add To Cart JavaScript
+document.getElementById('BulkAddForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const inputs = this.querySelectorAll('.bulk-quantity-input');
+  const items = [];
+
+  inputs.forEach(input => {
+    const qty = parseInt(input.value, 10);
+    if (qty > 0) {
+      const variantId = input.name.replace('qty_', '');
+      items.push({ id: variantId, quantity: qty });
+    }
+  });
+
+  if (items.length === 0) {
+    alert('Please enter at least one quantity.');
+    return;
+  }
+
+  fetch('/cart/add.js', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ items })
+  })
+  .then(response => {
+    if (!response.ok) throw new Error('Network error');
+    return response.json();
+  })
+  .then(() => { window.location.href = '/cart'; })
+  .catch(err => {
+    alert('Failed to add items: ' + err.message);
+  });
+});
+</script>
+
+{% schema %}
+{
+  "name": "Bulk Add To Cart",
+  "settings": [
+    {
+      "type": "collection",
+      "id": "source_collection",
+      "label": "Collection to display"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Bulk Add To Cart"
+    }
+  ]
+}
+{% endschema %}
